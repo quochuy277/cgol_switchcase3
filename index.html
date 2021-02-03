@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính điểm thi ĐH</title>
+</head>
+<body>
+    <h1>Tính điểm thi đại học</h1>
+    <div>
+        <table>
+            <tr>
+                <td>Môn Toán</td>
+                <td>
+                    <input id="diemtoan" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>Môn Văn</td>
+                <td>
+                    <input id="diemvan" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>Môn Anh</td>
+                <td>
+                    <input id="diemanh" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>Khu vực</td>
+                <td>
+                   <select id="uutien">
+                    <option value="KV1">KV1</option>
+                    <option value="KV2">KV2</option>
+                    <option value="KV2-NT">KV2-NT</option>
+                    <option value="KV3">KV3</option>
+                   </select>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <button onclick="tinhdiem()">Tính điểm</button>
+    <h4>Tổng điểm ĐH của bạn là: </h4>
+    <p id="result"></p>
+    <script src="my.js"></script>
+</body>
+</html>
